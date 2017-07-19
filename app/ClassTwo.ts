@@ -1,6 +1,6 @@
 class ClassTwo {
-  constructor(observableService: ObservableService){
-      observableService.Deferred.progress(
+  constructor(){
+      ObservableService.Instance.Deferred.progress(
         (newGreeting: string) => {
           $("#header-two").text(newGreeting);
           $("#my-text").val("");

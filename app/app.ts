@@ -1,7 +1,6 @@
 $(function(){
-    let observableService = new ObservableService();
-    let classTwo = new ClassTwo(observableService);
-    let classOne = new ClassOne(observableService);
+    let classTwo = new ClassTwo();
+    let classOne = new ClassOne();
 
     $("#my-button").click(() => {
         classOne.UpdateGreeting($("#my-text").val());

@@ -1,11 +1,9 @@
 class ClassOne {
   UpdateGreeting: (newGreeting: string) => void;
-  ObservableService: ObservableService;
 
-  constructor(observableService: ObservableService){
-    this.ObservableService = observableService;
+  constructor(){
     this.UpdateGreeting = (newGreeting: string) => {
-      this.ObservableService.UpdateGreeting(newGreeting);
+      ObservableService.Instance.UpdateGreeting(newGreeting);
     }
   }
 }
