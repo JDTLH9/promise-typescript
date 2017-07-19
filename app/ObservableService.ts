@@ -11,7 +11,7 @@ class ObservableService {
     };
   }
 
-  public static get Instance() {
+  public static get Instance(): ObservableService {
     return this._instance || (this._instance = new this());
   }
 }
