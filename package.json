@@ -18,7 +18,8 @@
   "homepage": "https://github.com/JDTLH9/promise-typescript#readme",
   "devDependencies": {
     "@types/jquery": "^2.0.48",
-    "http-server": "^0.10.0"
+    "http-server": "^0.10.0",
+    "typescript": "^2.4.2"
   },
   "dependencies": {
     "jquery": "^3.2.1"
