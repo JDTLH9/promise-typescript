@@ -4,6 +4,7 @@
   "description": "Promises in TypeScript",
   "main": "index.js",
   "scripts": {
+    "postinstall": "tsc -p ./"
   },
   "repository": {
     "type": "git",
